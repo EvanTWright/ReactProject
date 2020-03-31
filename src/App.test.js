@@ -25,14 +25,6 @@ describe('Search', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  test('has a valid snapshot', () => {
-    const component = renderer.create(
-      <Search>Search</Search>
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
 });
 
 describe('Button', () => {
@@ -41,14 +33,6 @@ describe('Button', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Button>Give Me More</Button>, div);
     ReactDOM.unmountComponentAtNode(div);
-  });
-
-  test('has a valid snapshot', () => {
-    const component = renderer.create(
-      <Button>Give Me More</Button>
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
   });
 
 });
@@ -67,14 +51,6 @@ describe('Table', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Table { ...props } />, div);
-  });
-
-  test('has a valid snapshot', () => {
-    const component = renderer.create(
-      <Table { ...props } />
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
   });
 
   it('shows two items in list', () => {
