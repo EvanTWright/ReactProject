@@ -1,4 +1,1 @@
-/*
-!.gitignore
-!hackernews/
-!.travis.yml
+/node_modules
