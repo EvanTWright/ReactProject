@@ -11,6 +11,6 @@ addons:
 
 install:
   - npm install
-  
+
 script:
-  - npm run test:unit && npm run test:snapshot && npm run test:cypress
+  - npm test
