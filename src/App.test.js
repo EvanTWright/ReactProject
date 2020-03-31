@@ -15,14 +15,6 @@ describe('App', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  test('has a valid snapshot', () => {
-    const component = renderer.create(
-      <App />
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
 });
 
 describe('Search', () => {
