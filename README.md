@@ -7,11 +7,11 @@ https://evantwright.github.io/ReactProject/
 
 ## Screenshots
 # Screenshot 1
-![](images/Pages1.png)
+![](images/Pages1.PNG)
 This is the initial page when loading pages website.
 
 # Screenshot 2 
-![](images/Pages2.png)
+![](images/Pages2.PNG)
 What you get by searching for Phone on 4/27/2020
 
 ## Contributions
