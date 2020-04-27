@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Introduction 
 This project is an example app from the Road to React book. Although the app is from the book for the assignmet we wrote our own test and integrated Travis CI. Github pages also depolys the latest passing build from Travis CI. 
 
+## Technical Features
+Using ReactJs to constrtuct a news app. Created Unit/Integration test that is in a script as is called upon when using Travis CI without all test passing a build will not be deployed. Also integrated cookies into the React App so your last search is saved when you reload the page. 
+
 ## Try Out
 https://evantwright.github.io/ReactProject/
 
