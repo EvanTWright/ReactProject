@@ -5,7 +5,14 @@ This project is an example app from the Road to React book. Although the app is 
 ## Try Out
 https://evantwright.github.io/ReactProject/
 
-## ScreenShots
+## Screenshots
+# Screenshot 1
+![](images/Pages1.png)
+This is the initial page when loading pages website.
+
+# Screenshot 2 
+![](images/Pages2.png)
+What you get by searching for Phone on 4/27/2020
 
 ## Contributions
 
