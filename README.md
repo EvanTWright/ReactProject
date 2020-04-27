@@ -1,6 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction 
+This project is an example app from the Road to React book. Although the app is from the book for the assignmet we wrote our own test and integrated Travis CI. Github pages also depolys the latest passing build from Travis CI. 
 
-## Available Script
+## Try Out
+https://evantwright.github.io/ReactProject/
+
+## ScreenShots
+
+## Contributions
+
+Pending...
+
+## Available Scripts
 
 In the project directory, you can run:
 
