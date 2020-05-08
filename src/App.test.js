@@ -14,7 +14,7 @@ describe('App', () => {
     ReactDOM.render(<App />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
-
+  
 });
 
 describe('Search', () => {
@@ -50,12 +50,12 @@ describe('Table', () => {
 
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Table { ...props } />, div);
+    ReactDOM.render(<Table {...props} />, div);
   });
 
   it('shows two items in list', () => {
     const element = shallow(
-      <Table { ...props } />
+      <Table {...props} />
     );
 
     expect(element.find('.table-row').length).toBe(2);
